@@ -12,6 +12,7 @@ eggCount = 42
 print(eggCount <= 42)
 myAge = 23
 print(myAge >= 10)
+print()
 
 #binary boolean operators
 print("binary boolean operators")
@@ -29,9 +30,27 @@ print(not True)
 print(not False)
 print(not not not not False)
 print(not not not not True)
+print()
 
 # mixing Boolean and comparision operators
 print("mixing Boolean and comparision operators")
 print((4 < 5) and (5 < 6))
 print((4 < 5) and (9 < 6))
 print((1 == 5) and (2 == 2))
+print()
+
+# elements of flow control
+print('elements of flow control')
+name = 'Mary'
+passWord = 1234
+if name == 'Mary':
+    print('Hello Mary')
+    if passWord == 1234:
+        print('Access granted')
+    else:
+        print('Wrong password')
+print()
+if name == 'obi':
+    print('hi obi')
+elif passWord == 1234:
+    print('access granted')
