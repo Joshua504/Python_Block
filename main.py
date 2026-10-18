@@ -1,17 +1,37 @@
-#Varirable are like containers used to store data
+# comparision operators
+print("comparision operators")
+print(42 == 42)
+print(42 == 99)
+print(2 != 3)
+print(2 != 2)
+print()
+print(42 < 100)
+print(42 > 100)
+print(42 < 42)
+eggCount = 42
+print(eggCount <= 42)
+myAge = 23
+print(myAge >= 10)
 
-cars = 100
-space_in_a_car = 4.0
-drivers = 30
-passengers = 90
-cars_not_driven = cars - drivers
-cars_driven = drivers
-carpool_capacity = cars_driven * space_in_a_car
-average_passengers_per_car = passengers / cars_driven
+#binary boolean operators
+print("binary boolean operators")
+print(True and True)
+print(True and False)
+print(False and True)
+print(False and False)
+print()
+print(True or True)
+print(True or False)
+print(False or True)
+print(False or False)
+print()
+print(not True)
+print(not False)
+print(not not not not False)
+print(not not not not True)
 
-print("there are", cars, "cars available")
-print("there are only", drivers, "drivers available")
-print("there will be", cars_not_driven, "empty cars today")
-print("we can transport", carpool_capacity, "people today")
-print("we have", passengers, "to carpool today")
-print("we need to put about", average_passengers_per_car, "in each car")
+# mixing Boolean and comparision operators
+print("mixing Boolean and comparision operators")
+print((4 < 5) and (5 < 6))
+print((4 < 5) and (9 < 6))
+print((1 == 5) and (2 == 2))
