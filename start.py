@@ -1,23 +1,44 @@
-# this program says hello and asks for my name.
-
-# print('i am alone')
-# print('Domain Expansion!!!')
+# def hello(name):
+#     print('hello   ' + name)
 #
-# myName = input('who are you?')
-# print('it is good to meet you, ' + myName)
-# print('the length of your name is ' + str(len(myName)))
-#
-# print('what is your age?')
-# myAge = input()
-# print('you will be ' + str(int(myAge) + 1) + ' in a year' )
+# hello('bob')
+import random
+from random import randint
 
-print(str(29))
-print(int("9"))
-print(int(13.2))
-print(float(14.4))
-print(float(14))
+from pip._internal.utils import egg_link
 
-# age = int(input("enter you age: "))
-# print(type(age))
 
-print('spam' * 3)
+def get_answer(num):
+    if num == 1:
+        return 'heaven'
+    elif num == 2:
+        return 'up'
+    elif num == 3:
+        return 'hell'
+    elif num == 4:
+        return 'down'
+    elif num == 5:
+        return 'choose'
+
+
+# r = random.randint(1, 5)
+# print(r)
+# f = get_answer(r)
+# print(f)
+
+print(get_answer(random.randint(1, 5)))
+
+spam = print('hello')
+print(None == spam)
+
+print('Hello', end='')
+print('World')
+
+print('cats', 'dogs', 'mice')
+print('cats', 'dogs', 'mice', sep=',')
+
+def spam():
+    eggs = 1234
+
+spam()
+print(eggs)
