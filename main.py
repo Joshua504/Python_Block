@@ -159,3 +159,6 @@ def hello():
     print('howdy')
 
 hello()
+
+def hello():
+    print('how are you my boss')
